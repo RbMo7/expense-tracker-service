@@ -16,7 +16,6 @@ func main() {
 	// Dotenv and database initialization
 	internal.Initialize()
 
-
 	// Route handling
 	r := chi.NewRouter()
 
